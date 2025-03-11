@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+.banner {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background: #0056b3;
+}
+#listaAmigos {
+    list-style: none;
+    padding: 0;
+}
+#listaAmigos li {
+    padding: 8px;
+    background: #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+}
